@@ -1,0 +1,187 @@
+@keyframes translateLeft {
+    0% { left: 130px; }
+    100% { left: 0; opacity: 1; }
+}
+@keyframes translateRight {
+    0% { left: -130px; }
+    100% { left: 0; opacity: 1; }
+}
+@keyframes translateTop1 {
+    0% { top: 130px; }
+    100% { top: 97px; opacity: 1; }
+}
+@keyframes translateTop2 {
+    0% { top: 130px; }
+    100% { top: -12px; opacity: 1; }
+}
+@keyframes translateTop3 {
+    0% { top: 150px; }
+    100% { top: 94px; opacity: 1; }
+}
+@keyframes translateTop4 {
+    0% { top: 150px; }
+    100% { top: -55px; opacity: 1; }
+}
+@keyframes translateTop5 {
+    0% { top: 180px; }
+    100% { top: 134px; opacity: 1; }
+}
+@keyframes translateTop6 {
+    0% { top: 150px; }
+    100% { top: 6px; opacity: 1; }
+}
+@keyframes translateTop7 {
+    0% { top: 150px; }
+    100% { top: 81px; opacity: 1; }
+}
+@keyframes translateTop8 {
+    0% { top: 150px; }
+    100% { top: -17px; opacity: 1; }
+}
+@keyframes translateTop9 {
+    0% { top: 150px; }
+    100% { top: 73px; opacity: 1; }
+}
+@keyframes translateTop10 {
+    0% { top: 150px; }
+    100% { top: -21px; opacity: 1; }
+}
+@keyframes translateTop11 {
+    0% { top: 150px; }
+    100% { top: 68px; opacity: 1; }
+}
+@keyframes lineLong1 {
+    0% { top: 186px; }
+    100% { top: 143px; height: 43px; opacity: 1; }
+}
+@keyframes lineLong2 {
+    0% { top: 172px; }
+    100% { top: 40px; height: 132px; opacity: 1; }
+}
+@keyframes lineLong3 {
+    0% { top: 194px; }
+    100% { top: 143px; height: 51px; opacity: 1; }
+}
+@keyframes lineLong4 {
+    0% { top: 154px; }
+    100% { top: -3px; height: 157px; opacity: 1; }
+}
+@keyframes lineLong5 {
+    0% { top: 224px; }
+    100% { top: 184px; height: 40px; opacity: 1; }
+}
+@keyframes lineLong6 {
+    0% { top: 169px; }
+    100% { top: 59px; height: 110px; opacity: 1; }
+}
+@keyframes lineLong7 {
+    0% { top: 194px; }
+    100% { top: 133px; height: 61px; opacity: 1; }
+}
+@keyframes lineLong8 {
+    0% { top: 169px; }
+    100% { top: 35px; height: 134px; opacity: 1; }
+}
+@keyframes lineLong9 {
+    0% { top: 152px; }
+    100% { top: 125px; height: 27px; opacity: 1; }
+}
+@keyframes lineLong10 {
+    0% { top: 164px; }
+    100% { top: 28px; height: 136px; opacity: 1; }
+}
+@keyframes lineLong11 {
+    0% { top: 184px; }
+    100% { top: 120px; height: 64px; opacity: 1; }
+}
+a { text-decoration: none !important; }
+.center { width: 1200px; margin: 0 auto; }
+.bgcolor1 { background-color: #fff; }
+.bgcolor2 { background-color: #ecf6ff; }
+.icon { position: relative; display: inline-block; background: url("../images/icon.png") no-repeat; opacity: 0; animation: 1.5s 1.5s forwards; }
+.same_h { height: 80px; line-height: 80px; }
+.same { height: 482px; }
+.same .container { padding-top: 88px; }
+.same dl { margin-top: 70px; }
+.same .dl { margin-top: 65px; }
+.same dl dt { width: 240px; font-size: 48px; color: #333444; border-bottom: 1px solid #dfdfe3; }
+.same dl .dt1 { width: 192px; }
+.same dl .dt2 { width: 288px; }
+.same dl dd { margin-top: 8px; font-size: 16px; color: #888999; }
+.same dl .dd1 { width: 337px; }
+.same dl .dd2 { width: 300px; }
+.same .animate { display: none; position: relative; opacity: 0; animation: 1.5s forwards; }
+.same .animate1 { display: block; animation-name: translateLeft; }
+.same .animate2 { display: block; animation-name: translateRight; }
+.header img { margin-top: 18px; }
+.header a { font-size: 16px; color: #888; margin-left: 42px; }
+.banner { background: url("../images/banner.jpg") no-repeat; width: 100%; height: 630px; }
+.banner .container { width: 1100px; padding-top: 135px; }
+.banner .circle { background: url("../images/circle.png") no-repeat; width: 326px; height: 302px; margin-right: 120px; }
+.banner h1 { font-size: 62px; color: #fff; font-weight: normal; margin-top: 8px; }
+.swiper-container { width: 496px; height: 80px; }
+.banner a { display: inline-block; margin: 28px 0 15px; font-size: 25px; color: #fff; width: 235px; height: 67px; line-height: 67px; background-color: #ff9600; background: linear-gradient(#ffa900, #ff8400); text-align: center; }
+.banner a .icon { top: 2px; background-position: -119px -44px; opacity: 1; width: 25px; height: 25px; margin-right: 15px; }
+.banner .info { font-size: 14px; color: #c3d9ff; line-height: 2.6; }
+.techStack .container { width: 1080px; padding-top: 52px; }
+.techStack dl { margin-top: 100px; }
+.techStack dl dt { width: 382px; }
+.techStack dl dd { width: 278px; }
+.techStack .bg { background: url("../images/techStack.png") no-repeat; width: 583px; height: 311px; }
+.techStack .icon1 { left: 27px; width: 74px; height: 29px; background-position: -149px -43px; animation-name: translateTop1; }
+.techStack .icon2 { left: 25px; width: 34px; height: 33px; animation-name: translateTop2; }
+.techStack .icon3 { left: 25px; width: 43px; height: 49px; background-position: -35px 0; animation-name: translateTop3; }
+.techStack .icon4 { left: 32px; width: 27px; height: 27px; background-position: -80px 0; animation-name: translateTop4; }
+.techStack .icon5 { left: 29px; width: 44px; height: 39px; background-position: -110px 0; animation-name: translateTop5; }
+.techStack .icon6 { left: 35px; width: 45px; height: 27px; background-position: -156px 0; animation-name: translateTop6; }
+.techStack .icon7 { left: 22px; width: 35px; height: 34px; background-position: -205px 0; animation-name: translateTop7; }
+.techStack .icon8 { left: 37px; width: 48px; height: 21px; background-position: 0 -82px; animation-name: translateTop8; }
+.techStack .icon9 { left: 9px; width: 34px; height: 30px; background-position: 0 -49px; animation-name: translateTop9; }
+.techStack .icon10 { left: 50px; width: 23px; height: 25px; background-position: -37px -54px; animation-name: translateTop10; }
+.techStack .icon11 { left: 65px; width: 44px; height: 24px; background-position: -73px -50px; animation-name: translateTop11; }
+.techStack .line { position: absolute; width: 2px; height: 0; background-color: #b9d2ff; opacity: 0; animation: 1.5s 1.5s forwards; }
+.techStack .line1 { left: 62px; animation-name: lineLong1; }
+.techStack .line2 { left: 118px; animation-name: lineLong2; }
+.techStack .line3 { left: 160px; animation-name: lineLong3; }
+.techStack .line4 { left: 207px; animation-name: lineLong4; }
+.techStack .line5 { left: 242px; animation-name: lineLong5; }
+.techStack .line6 { left: 295px; animation-name: lineLong6; }
+.techStack .line7 { left: 327px; animation-name: lineLong7; }
+.techStack .line8 { left: 386px; animation-name: lineLong8; }
+.techStack .line9 { left: 405px; animation-name: lineLong9; }
+.techStack .line10 { left: 477px; animation-name: lineLong10; }
+.techStack .line11 { left: 529px; animation-name: lineLong11; }
+.update .container { width: 1045px; padding-top: 50px; }
+.update .bg { position: relative; background: url("../images/update.png") no-repeat; width: 582px; height: 341px; }
+.update dl { margin-top: 120px; }
+.update dl dt { margin-left: 110px; }
+.update dl dd { width: 305px; }
+.mode .container { width: 1080px; padding-top: 82px; }
+.mode dl { margin-top: 85px; }
+.mode dl dd { width: 350px; }
+.mode .bg { background: url("../images/mode.png") no-repeat; width: 679px; height: 309px; }
+.standard .container { width: 990px; padding-top: 75px; }
+.standard .bg { background: url("../images/standard.png") no-repeat; width: 526px; height: 322px; }
+.standard dl dt { margin-left: 83px; }
+.component .container { width: 965px; }
+.component dl { margin-top: 75px; }
+.component dl dd { width: 320px; }
+.component .bg { background: url("../images/component.png") no-repeat; width: 496px; height: 312px; }
+.plate .container { width: 925px; }
+.plate .bg { background: url("../images/plate.png") no-repeat; width: 579px; height: 387px; }
+.plate dl dt { margin-left: 20px; }
+.plate dl dd { width: 245px; }
+.debug .container { width: 1015px; }
+.debug dl dd { width: 328px; }
+.debug .bg { background: url("../images/debug.png") no-repeat; width: 523px; height: 322px; }
+.oneKey .container { width: 1045px; padding-top: 78px; }
+.oneKey .bg { background: url("../images/oneKey.png") no-repeat; width: 572px; height: 402px; }
+.oneKey dl dt { margin-left: 96px; }
+.code .container { width: 1038px; padding-top: 82px; }
+.code .bg { background: url("../images/code.png") no-repeat; width: 490px; height: 332px; }
+.remote .container { width: 970px; padding-top: 98px; }
+.remote .bg { background: url("../images/remote.png") no-repeat; width: 551px; height: 362px; }
+.remote dl { margin-top: 50px; }
+.remote dl dt { margin-left: -28px; }
+.footer { background-color: #337cff; }
+.footer p { font-size: 14px; color: #fff; text-align: center; }
