@@ -110,7 +110,7 @@ a { text-decoration: none !important; }
 .same .animate { display: none; position: relative; opacity: 0; animation: 1.5s forwards; }
 .same .animate1 { display: block; animation-name: translateLeft; }
 .same .animate2 { display: block; animation-name: translateRight; }
-.banner { background: #052063 url("../images/banner.jpg") no-repeat; width: 100%; height: 710px; }
+.banner { background: #000d37 url("../images/banner.jpg") no-repeat; width: 100%; height: 710px; }
 .banner .header { padding-top: 50px; }
 .banner .header a { width: 33px; height: 33px; margin-left: 19px; opacity: 1; }
 .banner .header .help { background-position: -87px -87px; }
